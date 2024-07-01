@@ -1,0 +1,1 @@
+alert("Use server 2 for fast download");

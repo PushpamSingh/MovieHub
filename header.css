@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: #111;
+}
+.container{
+    background: gray;
+    max-width: 1280px;
+}
+header .img-logo{
+    background-color: rgb(17, 16, 16);
+    display: flex;
+}
+header .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header .menu nav{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-left: 1.2rem;
+}
+header .menu nav a{
+    text-decoration: none;
+    color: lightcyan;
+    margin: auto;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+header .menu input{
+    padding: 0.7rem;
+}
+.menu-btn img{
+    height: 30px;
+    width: 30px;
+    color: white;
+    padding-top: 0.7rem;
+    display: none;
+}
+@media (max-width: 786px){
+    .menu-btn img{
+        display: block;
+    }
+    header .menu nav a{
+        display: none;
+    }
+}
+
+.filter1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #111;
+    place-content: center;
+    
+}
+.filter1 span{
+    width: 170px;
+    margin: 1rem;
+    padding: 0.70rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    box-shadow: 5px 5px 16px rgba(177, 16, 16, 0.719),-5px -5px 16px rgba(177, 16, 16, 0.719);
+}
+.filter1 .hindi{
+        background: rgb(13, 224, 13);
+        color: white;
+        border: 1px solid green;
+}
+.filter1 .hindi:hover{
+    cursor: pointer;
+    background: transparent;
+    transition: all 200ms linear 0s;
+}
+.filter1 .english{
+    background: rgb(221, 19, 19);
+    color: white;
+    border: 1px solid red;
+}
+.filter1 .english:hover{
+    cursor: pointer;
+    background: transparent;
+    transition: all 200ms linear 0s;
+}
+.filter1 .telegram{
+    background: rgb(73, 73, 253);
+    color: white;
+    border: 1px solid blue;
+}
+.filter1 .telegram:hover{
+    cursor: pointer;
+    background: transparent;
+    transition: all 200ms linear 0s;
+}
+.filter1 .download{
+    background: rgba(192, 192, 10, 0.774);
+    color: white;
+    border: 1px solid rgba(192, 192, 10, 0.774);
+}
+.filter1 .download:hover{
+    cursor: pointer;
+    background: transparent;
+    transition: all 200ms linear 0s;
+}
+.filter2{
+    display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #111;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+     /* padding: 1.3rem; */
+    max-height: 200px;
+}
+.filter2 span{
+    color: white;
+    background: rgb(250, 31, 31);
+    padding: 0.70rem;
+    border-radius: 9px;
+    font-size: 0.8rem;
+    box-shadow: 2px 2px 25px rgba(136, 47, 47, 0.719),-2px -2px 25px rgba(136, 47, 47, 0.719);
+
+}
+.filter2 span:hover{
+    cursor: pointer;
+}

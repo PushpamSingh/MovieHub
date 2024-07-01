@@ -1,0 +1,28 @@
+.moviehubfooter{
+    background: #000000;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    text-align: center;
+}
+
+.moviehubfooter p{
+    color: white;
+}
+
+.footernav{
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+    justify-content: center;
+}
+.footernav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+}
